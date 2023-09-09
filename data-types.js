@@ -89,7 +89,7 @@ console.log(isAnotherUserSubscribed, typeof isAnotherUserSubscribed); // logs ou
 
 // With booleans we cannot use general arithematic operators because it does not make sense when we say
 
-console.log(isUserSubscribed + isAnotherUserSubscribed); // logs out 1 this is unexpected
+console.log(isUserSubscribed + isAnotherUserSubscribed); // logs out 1 because of type coercion.
 
 // Anyways there are special kind of operators called logical operators which apply to boolean datatypes.
 
@@ -127,3 +127,29 @@ console.log(typeof doNotHaveAValue);
 var explicitlySayDoNotHaveAValue = null;
 
 console.log(explicitlySayDoNotHaveAValue); // log out null.
+
+// Comparision
+
+// There are comparision operators which will check if given two or more values are equal to, greater or less than compared to each other
+
+var robAge = 20;
+var salAge = 21;
+
+console.log(robAge == salAge); // logs out false, because the '==' is a comparision operator which returns true or false depending upon the values.
+
+console.log(robAge != salAge); // logs out true, because of the '!' operator we are checking for the opposite condition that wether both the values are not equal.
+
+// In the same way...
+console.log(robAge < salAge); // logs out true.
+console.log(robAge > salAge); // logs out false.
+
+console.log(robAge >= salAge); // logs out false, this checks if the value is both equal to and greater than.
+
+// In the same way we can check for strings as well.
+
+var password = 'javascript is great';
+var confirmPassword = 'javascript is great';
+
+console.log(password == confirmPassword);
+
+// While it is obvious to think that the <, > operators will not be applicable for strings but there is a merit to it. The alphabets are arranged in ascending order so when we say a < b it logs out true because a is less than b and that is true.
