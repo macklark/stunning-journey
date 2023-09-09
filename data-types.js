@@ -155,3 +155,8 @@ console.log(password == confirmPassword);
 // While it is obvious to think that the <, > operators will not be applicable for strings but there is a merit to it. The alphabets are arranged in ascending order so when we say a < b it logs out true because a is less than b and that is true.
 
 // Javascript comes in built with a garbage collector which efficiently saves memory of a host computer wherever the code is getting executed.
+
+// BTW what are this lines that are explaining everything about the code and what is happening to them during execution. This are called comments which can be used to explain something or skip some lines of code temporarily. These lines of code will not be executed they will simply be ignored by the executor.
+
+var notCommented = 'someValue';
+// var commented = 'someOtherValue'; // ignored by executor.
