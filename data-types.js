@@ -160,3 +160,8 @@ console.log(password == confirmPassword);
 
 var notCommented = 'someValue';
 // var commented = 'someOtherValue'; // ignored by executor.
+
+/*  Multi
+    Line
+    Comments 
+*/
