@@ -7,5 +7,6 @@ Welcome to the stunning-journey repository! This repository contains a collectio
 1. [Hello, world !](https://github.com/macklark/stunning-journey/blob/master/hello-world.js)
 2. [variables](https://github.com/macklark/stunning-journey/blob/master/variables.js)
 3. [data types](https://github.com/macklark/stunning-journey/blob/master/data-types.js)
+4. [functions](https://github.com/macklark/stunning-journey/blob/master/functions.js)
 
 Feel free to contribute to this repository by adding more notes, examples, or correcting any errors you find. Happy coding!
