@@ -153,3 +153,5 @@ var confirmPassword = 'javascript is great';
 console.log(password == confirmPassword);
 
 // While it is obvious to think that the <, > operators will not be applicable for strings but there is a merit to it. The alphabets are arranged in ascending order so when we say a < b it logs out true because a is less than b and that is true.
+
+// Javascript comes in built with a garbage collector which efficiently saves memory of a host computer wherever the code is getting executed.
